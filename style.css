@@ -3687,14 +3687,6 @@ figure {
   #page.large {
 	width:1000px
   }
-  @media (max-width:970px) {
-	#page,
-	#page.large,
-	.flex-container-recommended {
-	  margin:0 auto;
-	  width:100%
-	}
-  }
   .row {
 	margin-left:0;
 	margin-right:0;
