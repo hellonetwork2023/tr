@@ -1,12 +1,13 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 20px; /* Spacing between items */
     justify-content: space-between;
+    padding: 0 30px; /* 30px padding on left and right */
 }
 
 .flex-item {
-    flex: 0 0 calc(25% - 20px); /* 25% width for 4 items per row with spacing */
+    flex: 0 0 calc(25% - 20px); /* Default: 4 items per row (25% width) */
     box-sizing: border-box;
     background: #f9f9f9;
     border: 1px solid #ddd;
@@ -32,6 +33,21 @@
 .button a:hover {
     background-color: #0056b3;
 }
+
+/* Mobile view: 2 items per row */
+@media (max-width: 768px) {
+    .flex-item {
+        flex: 0 0 calc(50% - 20px); /* 2 items per row (50% width) */
+    }
+}
+
+/* Extra small devices: 1 item per row */
+@media (max-width: 480px) {
+    .flex-item {
+        flex: 0 0 100%; /* 1 item per row (100% width) */
+    }
+}
+
 
 
 .center-all,
