@@ -113,9 +113,167 @@
 body {
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height:1.8em
-}
-
-body {
   font-size:14px;
   color:#333
+}
+
+
+#nav-container {
+  z-index:9;
+  position:fixed;
+  top:0;
+  width:100%;
+  font-size:12.4px;
+  margin-left:0
+}
+
+.desktop-nav-stripe-container {
+  width:100%;
+  height:5px;
+  top:100px;
+  position:absolute;
+  box-shadow:0 2px 3px rgba(0,0,0,.2);
+  display:block
+}
+
+#logo {
+  text-align:center;
+  background:#fff;
+  margin:0 auto;
+  height:52px;
+  width:970px
+}
+#logo img {
+  max-width:280px;
+  margin-top:4px
+}
+#logo #center-logo {
+  position:absolute;
+  left:50%;
+  right:50%;
+  margin-left:-140px
+}
+
+#search-bar {
+  float:left;
+  margin-top:11px
+}
+.searchbox {
+  border:2px solid #e8e8e8;
+  background:#fff;
+  border-radius:3px;
+  width:180px;
+  position:relative
+}
+.searchbox i {
+  float:right;
+  margin-top:7px;
+  margin-right:5px;
+  font-size:1.5em;
+  color:grey
+}
+.searchbox input {
+  background:0 0;
+  margin:0;
+  border-radius:0;
+  box-shadow:none;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  width:150px;
+  padding:7px 7px 7px 10px;
+  border:0;
+  display:inline;
+  overflow:hidden;
+  position:relative;
+  z-index:2;
+  color:#505b67;
+  line-height:17px;
+  height:auto;
+  -webkit-appearance:none;
+  font-size:15px;
+  font-family:Lato,sans-serif
+}
+.searchbox input:focus,
+.searchbox textarea:focus {
+  outline:0
+}
+.fa-search:before {
+  content:"\f002"
+}
+.fa {
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+fieldset {
+  margin:0;
+  min-width:0
+}
+fieldset,
+legend {
+  padding:0;
+  border:0
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color:inherit;
+  font:inherit;
+  margin:0
+}
+button {
+  overflow:visible
+}
+button,
+select {
+  text-transform:none
+}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance:button;
+  cursor:pointer
+}
+button[disabled],
+html input[disabled] {
+  cursor:default
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border:0;
+  padding:0
+}
+img {
+  border:0;
+  vertical-align:middle
+}
+svg:not(:root) {
+  overflow:hidden
+}
+#user-info {
+  float:right;
+  margin-top:14px;
+  font-family:"Open Sans Condensed";
+  font-size:15px
+}
+.logged-out-options {
+  font-family:Lato,sans-serif;
+  font-weight:700;
+  color:#666
+}
+.logged-out-options a {
+  color:#666
+}
+a {
+  background-color:transparent
+}
+a:active,
+a:hover {
+  outline:0
 }
