@@ -3269,9 +3269,6 @@ figure {
   article .saved-count.already-added {
 	background:url(../images/heart-saved.png) left center no-repeat!important
   }
-  article .button a {
-	margin-top:5px
-  }
   .paid-editorial:hover .wishlist,
   article:hover .wishlist {
 	right:10px;
@@ -3337,12 +3334,7 @@ figure {
 	line-height:2.1rem;
 	font-size:13px
   }
-  .paid-editorial .paid-editorial-inner .giveaway-editorial-title .button a {
-	margin:0 auto;
-	float:none;
-	width:200px;
-	font-size:20px
-  }
+
   .paid-editorial .paid-editorial-inner .giveaway-editorial-title .button {
 	margin-top:30px
   }
@@ -3423,14 +3415,7 @@ figure {
 	color:#fff!important;
 	text-shadow:1px 1px rgba(0,0,0,.25)
   }
-  article.post:not(.recommender) .details .button a {
-	width:100%;
-	padding:16px 0;
-	font-size:25px;
-	text-align:center;
-	font-family:open sans condensed;
-	text-transform:uppercase
-  }
+
   article.post:not(.recommender) .details .button.discontinued a {
 	background-color:#606060
   }
@@ -4494,9 +4479,6 @@ figure {
   .paid-editorial .paid-editorial-inner .details .button {
 	float:right
   }
-  .paid-editorial .paid-editorial-inner .details .button a {
-	font-size:20px
-  }
   .paid-editorial .paid-editorial-inner .details .saves-text {
 	margin-top:5px
   }
@@ -4562,9 +4544,6 @@ figure {
 	  width:100px;
 	  text-align:center;
 	  font-size:13px
-	}
-	.paid-editorial .paid-editorial-inner .details .button a {
-	  font-size:18px
 	}
 	.prime {
 	  bottom:160px
@@ -4906,9 +4885,6 @@ figure {
   }
   .imp-prev {
 	background-color:rgba(0,255,0,.25)!important
-  }
-  .ssna-cta .button a {
-	background-color:#333
   }
   .ssna-cta .button:hover a {
 	background:#333
@@ -6573,10 +6549,6 @@ figure {
 	article.post:not(.recommender) .flex-details.details .price {
 	  display:none
 	}
-	article.post:not(.recommender) .flex-details.details .button a {
-	  padding:12px 0;
-	  font-size:18px
-	}
 	.recommended-items h3.title {
 	  margin-top:40px
 	}
@@ -6619,13 +6591,6 @@ figure {
 	.pad-mobile {
 	  margin-right:20px;
 	  margin-left:20px
-	}
-  }
-  @media (max-width:970px) {
-	.buying-guide .buying-guide-item .button.shop-now.shop-now-price-button a {
-	  text-transform:none;
-	  font-size:18px;
-	  padding:13px 8px
 	}
   }
   #logo {
@@ -9894,12 +9859,6 @@ figure {
   .blog-post .blog-item .title a {
 	color:#333!important
   }
-  .blog-post .blog-item .title .button a {
-	color:#fff!important;
-	position:absolute;
-	margin-top:-28px;
-	margin-left:10px
-  }
   .blog-post .blog-item .blog-content a {
 	color:#1663b3;
 	text-decoration:underline
@@ -9913,11 +9872,6 @@ figure {
 	  max-width:100%;
 	  padding-left:20px;
 	  padding-right:20px
-	}
-	.blog-post .blog-item .title .button a {
-	  position:static;
-	  margin-left:10px;
-	  margin-top:10px
 	}
 	.blog-post .blog-item .title {
 	  line-height:1.5em
@@ -10455,13 +10409,7 @@ figure {
 	  font-size:13px
 	}
   }
-  .buying-guide .buying-guide-item .button a {
-	margin:10px auto 20px;
-	position:relative;
-	text-align:center;
-	font-size:20px;
-	border-radius:4px
-  }
+
   .buying-guide.buying-guide-bg .buying-guide-item .button {
 	float:right
   }
@@ -10510,10 +10458,7 @@ figure {
 	float:none;
 	margin:0 auto
   }
-  .buying-guide .buying-guide-item .button a {
-	float:right;
-	margin-top:-5px
-  }
+  
   .product-block-outer {
 	margin-bottom:40px
   }
@@ -10582,10 +10527,7 @@ figure {
 	  margin-top:12px;
 	  text-shadow:none
 	}
-	.buying-guide .buying-guide-item .button a {
-	  padding:8px;
-	  font-size:17px
-	}
+	
 	.buying-guide .buying-guide-item .bg-content,
 	.buying-guide .buying-guide-item .button {
 	  margin-top:10px
