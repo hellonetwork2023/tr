@@ -5,10 +5,11 @@ body {
     background-color: #f9f9f9;
 }
 
+/* تنسيق الـ Header */
 header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 50px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -18,6 +19,24 @@ header {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .search-bar {
@@ -45,6 +64,38 @@ header {
 .search-bar button:hover {
     background-color: #555;
 }
+
+/* تنسيق الروابط للأجهزة المحمولة */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-bar input[type="text"] {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .search-bar button {
+        width: 20%;
+        padding: 5px;
+    }
+}
+
 
 .container {
     display: grid;
