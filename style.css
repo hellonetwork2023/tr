@@ -21,24 +21,6 @@ header {
     letter-spacing: 2px;
 }
 
-.links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.links a {
-    color: #333;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.links a:hover {
-    text-decoration: underline;
-}
-
 .search-bar {
     display: flex;
     align-items: center;
@@ -65,7 +47,30 @@ header {
     background-color: #555;
 }
 
-/* تنسيق الروابط للأجهزة المحمولة */
+/* تنسيق القائمة التي تحتوي على الروابط */
+.links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* التنسيق عند الشاشات الصغيرة */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -73,15 +78,14 @@ header {
         text-align: center;
     }
 
-    .links {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    .search-bar {
+        width: 100%;
         margin-top: 10px;
     }
 
-    .search-bar {
-        width: 100%;
+    .links {
+        flex-direction: column;
+        gap: 10px;
         margin-top: 10px;
     }
 
