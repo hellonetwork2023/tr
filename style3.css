@@ -1,36 +1,3 @@
-
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select:none;
-        user-select:none;
-      }
-
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    @charset "UTF-8";
-[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate) {
-  display:none !important;
-}
-ng\:form {
-  display:block;
-}
-.ng-animate-shim {
-  visibility:hidden;
-}
-.ng-anchor {
-  position:absolute;
-}
 .center-all,
 .star {
   display:flex;
