@@ -1,105 +1,50 @@
 body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f9f9f9;
-    }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
 
-    /* تنسيق الـ Header */
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 50px;
-        background-color: #fff;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-    .logo span {
-        font-size: 20px;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
-    .search-bar {
-        display: flex;
-        align-items: center;
-    }
+.search-bar {
+    display: flex;
+    align-items: center;
+}
 
-    .search-bar input[type="text"] {
-        padding: 8px 10px;
-        font-size: 14px;
-        border: 1px solid #ccc;
-        border-radius: 5px 0 0 5px;
-        outline: none;
-    }
+.search-bar input[type="text"] {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
 
-    .search-bar button {
-        padding: 8px 12px;
-        border: none;
-        background-color: #333;
-        color: white;
-        border-radius: 0 5px 5px 0;
-        cursor: pointer;
-    }
+.search-bar button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
 
-    .search-bar button:hover {
-        background-color: #555;
-    }
-
-    /* تنسيق القائمة التي تحتوي على الروابط */
-    .links {
-        display: flex;
-        gap: 20px;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .links li {
-        display: inline-block;
-    }
-
-    .links a {
-        color: #333;
-        text-decoration: none;
-        font-size: 14px;
-    }
-
-    .links a:hover {
-        text-decoration: underline;
-    }
-
-    /* التنسيق عند الشاشات الصغيرة */
-    @media (max-width: 768px) {
-        header {
-            flex-direction: column;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .search-bar {
-            width: 100%;
-            margin-top: 10px;
-        }
-
-        .links {
-            flex-direction: column;
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        .search-bar input[type="text"] {
-            width: 80%;
-            font-size: 12px;
-        }
-
-        .search-bar button {
-            width: 20%;
-            padding: 5px;
-        }
-    }
-
+.search-bar button:hover {
+    background-color: #555;
+}
 
 .container {
     display: grid;
@@ -263,7 +208,7 @@ footer .disclaimer {
         font-size: 10px;
     }
 }
-.filter-menu {
+        .filter-menu {
     margin: 20px 50px;
     display: flex;
     justify-content: flex-start;
@@ -276,11 +221,11 @@ footer .disclaimer {
     font-size: 14px;
     background-color: #fff;
 }
-.saves {
-    cursor: pointer; /* يظهر مؤشر الفأرة كيد عند التمرير */
-    transition: color 0.3s ease; /* تأثير تغيير اللون */
-}
+        .saves {
+                cursor: pointer; /* يظهر مؤشر الفأرة كيد عند التمرير */
+                transition: color 0.3s ease; /* تأثير تغيير اللون */
+        }
 
-.saves:hover {
-    color: #ff4500; /* تغيير اللون عند التمرير */
-}
+        .saves:hover {
+                color: #ff4500; /* تغيير اللون عند التمرير */
+        }
